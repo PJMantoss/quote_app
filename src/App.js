@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
+import QuoteBox from './components/QuoteBox';
+import Button from './components/Button';
+import Social from './components/Social';
 
 class App extends Component {
   constructor(props){
@@ -44,8 +47,11 @@ class App extends Component {
       <div className="App" id="wrapper">
         <h1 className="title">Random Quote App</h1>
         <div id="quote-box">
-          
-          <div id="buttons"></div>
+          <QuoteBox/>
+          <div id="buttons">
+            <Social/>
+            <Button/>
+          </div>
         </div>
       </div>
     );
