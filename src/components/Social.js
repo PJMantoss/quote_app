@@ -9,7 +9,7 @@ export default function Social() {
                 title="Share this Quote on Twitter"
                 id="tweet-quote"
             >
-                <i/>
+                <i className="fab fa-twitter twitter-icon"/>
             </a>
         </React.Fragment>
     )
