@@ -47,10 +47,10 @@ class App extends Component {
       <div className="App" id="wrapper">
         <h1 className="title">Random Quote App</h1>
         <div id="quote-box">
-          <QuoteBox/>
+          <QuoteBox quote={quote} author={author} />
           <div id="buttons">
-            <Social/>
-            <Button/>
+            <Social quote={quote} author={author}/>
+            <Button id="new-quote" onClick={this.getNewQuote} title="New Quote" />
           </div>
         </div>
       </div>
