@@ -32,6 +32,10 @@ class App extends Component {
         });
   }
 
+  getNewQuote = () => {
+    this.getQuote;
+  }
+
 
   render() {
     return (
