@@ -23,6 +23,12 @@ class App extends Component {
         .then(res => {
           let data = res.data.quote;
           let quoteNum = Math.floor(Math.random() * data.length);
+          let randomQuote = data[quoteNum];
+
+          this.setState({
+            quote: randomQuote['quote'],
+            author: randomQuote['author']
+          })
         });
   }
 
