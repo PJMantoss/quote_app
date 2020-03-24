@@ -97,6 +97,14 @@ body {
   margin-right: 15px;
 }
 
+.social-media > a > .twitter-icon:hover {
+  color: rgb(237, 246, 252);
+}
+
 #buttons .social-media > #tumblr-quote > i {
   color: rgb(240, 243, 245);
+}
+
+#buttons .social-media > #tumblr-quote > i:hover {
+  color: red;
 }
