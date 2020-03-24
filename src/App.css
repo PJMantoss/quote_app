@@ -28,6 +28,7 @@ body {
 
 .title {
   text-align: center;
+  align-self: center;
   font-family: 'Paytone One', sans-serif;
   color: white;
 }
@@ -48,6 +49,7 @@ body {
 #buttons {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -61,9 +63,14 @@ body {
 
 .button {
   border: 0;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 22px;
+  padding: 6px;
+  background: rgb(112, 247, 112);
+  font-size: 14px;
   font-family: 'Sniglet', cursive;
+  font-weight: 550;
+  box-shadow: 0px 0px 3px .5px rgb(212, 212, 212);
+  margin-bottom: 10px;
 }
 
 @keyframes App-logo-spin {
