@@ -69,6 +69,11 @@ body {
   margin-bottom: 10px;
 }
 
+.button:hover {
+  background: green;
+  color: white;
+}
+
 #buttons .social-media {
   display: flex;
   justify-content: space-between;
@@ -77,9 +82,4 @@ body {
 .social-media > a > .twitter-icon {
   color: #1DA1F2;
   margin-right: 15px;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
