@@ -32,7 +32,7 @@ class App extends Component {
             quote: randomQuote['quote'],
             author: randomQuote['author']
           })
-        });
+        })
   }
 
   getNewQuote = () => {
@@ -41,7 +41,7 @@ class App extends Component {
 
 
   render() {
-    const {quote, author} = this.state;
+    const { quote, author } = this.state;
 
     return (
       <div className="App" id="wrapper">
