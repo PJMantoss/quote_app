@@ -1,12 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Lemon|Patrick+Hand|Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Paytone+One|Sniglet&display=swap');
 
 .App {
   text-align: center;
 }
 
+/*
+font-family: 'Patrick Hand', cursive;
+font-family: 'Sniglet', cursive;
+font-family: 'Righteous', cursive;
+*/
+
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: green;
+}
+
+#quote-box {
+  width: 400px;
+  background: black;
+  margin: 0 auto;
+  padding: 1px 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px rgb(224, 223, 223);
+}
+
+.title {
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  color: white;
+}
+
+#text {
+  color: white;
+  font-family: 'Sniglet', cursive;
+  font-size: 22px;
+  text-align: center;
+}
+
+#author {
+  color: yellow;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 22px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.twitter-icon {
+  color: #1DA1F2;
+}
+
+#tumblr-quote > i {
+  color: rgb(240, 243, 245);
+}
+
+.button {
+  border: 0;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: 'Sniglet', cursive;
 }
 
 @keyframes App-logo-spin {

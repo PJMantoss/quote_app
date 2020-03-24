@@ -49,7 +49,9 @@ class App extends Component {
         <div id="quote-box">
           <QuoteBox quote={quote} author={author} />
           <div id="buttons">
-            <Social quote={quote} author={author}/>
+            <div className="social-media">
+                <Social quote={quote} author={author}/>
+            </div>
             <Button onClick={this.getNewQuote} title='New Quote' />
           </div>
         </div>
