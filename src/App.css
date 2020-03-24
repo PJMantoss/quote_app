@@ -69,8 +69,13 @@ body {
   font-size: 14px;
   font-family: 'Sniglet', cursive;
   font-weight: 550;
-  box-shadow: 0px 0px 3px .5px rgb(212, 212, 212);
+  box-shadow: .5px .5px 2px 2px rgb(247, 245, 245);
   margin-bottom: 10px;
+}
+
+#buttons .social-media {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
