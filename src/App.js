@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getQuote();
+    this.getQuote()
   }
 
   getQuote(){
@@ -36,7 +36,7 @@ class App extends Component {
   }
 
   getNewQuote = () => {
-    this.getQuote;
+    this.getQuote();
   }
 
 
@@ -50,7 +50,7 @@ class App extends Component {
           <QuoteBox quote={quote} author={author} />
           <div id="buttons">
             <Social quote={quote} author={author}/>
-            <Button id="new-quote" onClick={this.getNewQuote} title="New Quote" />
+            <Button onClick={this.getNewQuote} title='New Quote' />
           </div>
         </div>
       </div>
