@@ -4,6 +4,7 @@ import axios from 'axios';
 import QuoteBox from './components/QuoteBox';
 import Button from './components/Button';
 import Social from './components/Social';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props){
@@ -52,6 +53,7 @@ class App extends Component {
             <Button onClick={this.getNewQuote} title='New Quote' />
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }
