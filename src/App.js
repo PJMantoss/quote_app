@@ -24,7 +24,7 @@ class App extends Component {
 
     axios.get(url)
         .then(res => {
-          let data = res.data.quote;
+          let data = res.data.quotes;
           let quoteNum = Math.floor(Math.random() * data.length);
           let randomQuote = data[quoteNum];
 
