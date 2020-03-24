@@ -53,10 +53,6 @@ body {
   margin-bottom: 10px;
 }
 
-.twitter-icon {
-  color: #1DA1F2;
-}
-
 #tumblr-quote > i {
   color: rgb(240, 243, 245);
 }
@@ -69,13 +65,18 @@ body {
   font-size: 14px;
   font-family: 'Sniglet', cursive;
   font-weight: 550;
-  box-shadow: .5px .5px 2px 2px rgb(247, 245, 245);
+  box-shadow: 0px 0px 1px 2px rgb(247, 245, 245);
   margin-bottom: 10px;
 }
 
 #buttons .social-media {
   display: flex;
   justify-content: space-between;
+}
+
+.social-media > a > .twitter-icon {
+  color: #1DA1F2;
+  margin-right: 15px;
 }
 
 @keyframes App-logo-spin {
