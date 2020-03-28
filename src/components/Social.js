@@ -19,7 +19,7 @@ export default function Social({quote, author}) {
                     title="Post this quote on tumblr!" 
                     id="tumblr-quote"
                 >
-                    <i class="fab fa-tumblr"></i>
+                    <i className="fab fa-tumblr"></i>
                 </a>
             </div>
         </React.Fragment>
