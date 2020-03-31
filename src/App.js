@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactFCCtest from 'react-fcctest';
 import './App.css';
 import axios from 'axios';
 import QuoteBox from './components/QuoteBox';
@@ -54,6 +55,7 @@ class App extends Component {
           </div>
         </div>
         <Footer/>
+        <ReactFCCtest />
       </div>
     );
   }
